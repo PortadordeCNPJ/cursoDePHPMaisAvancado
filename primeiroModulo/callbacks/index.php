@@ -18,5 +18,6 @@ function teste2($callback)
 }
 
 //A variavel $user agora é um callback, pois ela está recebendo o resultado da função de teste. Essa variável agora pode ser usada como função
+//Sempre que eu quiser chamar uma função eu devo chamar ela como uma string
 $user = 'teste';
 echo teste2($user);
